@@ -1,12 +1,13 @@
 import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import logo from "../assets/logo.png";
 
 function NavBar({ open, onToggleSide }) {
   return (
     <nav className="nav-vertical">
       <div className="nav-logo">
-        <img src="src/assets/logo.png" alt="Logo" />
+        <img src={logo} alt="Logo" />
       </div>
 
       <button
